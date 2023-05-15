@@ -1,4 +1,4 @@
-﻿# TodoList-MERNSTACK
+# TodoList-MERNSTACK
 
 ##Backend:
 instal = pnpm i
@@ -9,4 +9,7 @@ mongodb Url : todobackend/config/contactDB.js
 instal = pnpm i
 start = pnpm dev<br>
 main api url : todofrontend/src/api/baseurl.jsx {http://127.0.0.1:3000}<br>
+<<<<<<< HEAD
 /
+=======
+>>>>>>> 1dcd8569485567791f17176aa58fda419a2aa476
