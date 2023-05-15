@@ -21,7 +21,7 @@ export const TaskForm = () => {
             <Navbar />
 
             <div className="taskform">
-                {isLoading ? <h2>Loading...Just a Free Host that's why request slow</h2> : null}
+                {isLoading ? <h2>Loading...</h2> : null}
                 <div className="input-task">
                     <input type="text" value={task} onChange={(e) => setTask(e.target.value)} ></input>
                     {btnUpdate ? <button className="btn-taskForm" onClick={(e) => updateTask(e)} >Update</button> : <button className="btn-taskForm" onClick={(e) => createTask(e)} > Add Todo</button>}

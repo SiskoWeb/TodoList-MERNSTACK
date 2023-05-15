@@ -14,7 +14,7 @@ export const Login = () => {
             <Navbar />
 
             <div className="login">
-            {isLoading?<h2>Loading...Just a Free Host that's why request slow</h2>:null}
+            {isLoading?<h2>Loading...</h2>:null}
                 <h2>Login</h2>
                 <form onSubmit={(e) => onSubmit(e)}>
 

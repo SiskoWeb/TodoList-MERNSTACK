@@ -23,7 +23,7 @@ export const Signup = () => {
             <Navbar />
 
             <div className="signup">
-                {isLoading ? <h2>Loading... Just a Free Host that's why request slow</h2> : null}
+                {isLoading ? <h2>Loading... </h2> : null}
                 <h2>Register</h2>
 
                 <form>
